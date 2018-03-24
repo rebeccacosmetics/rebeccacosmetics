@@ -1,0 +1,106 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+head {font-family: 'Lobster', cursive;
+}
+
+body {font-family: 'Vollkorn SC', serif;
+} 
+
+nav ul a,
+nav .brand-logo {
+  color: white;
+}
+
+nav .brand-logo {
+font-family: 'Satisfy', cursive;
+}
+
+.nav-wrapper {
+  padding-left: 35px;
+  padding-right: 10px;
+}
+
+.header {
+  color: #d50000;
+}
+
+.button-collapse {
+  color: white;
+}
+
+.parallax-container {
+  min-height: 460px;
+  line-height: 30px;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+
+  .nav-wrapper {
+  padding: 0 10px;
+  }
+}
+
+.col-servizio {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+.col-registrazione {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}  
+
+
+.btn-registrazione {
+  margin-top: 50px;
+}
+
+footer.page-footer {
+  margin: -5px;
+  background-color: #006064;
+}
+
+.social-icon {
+  font-size: 1.5em;
+  color: white;
+  padding: 0 20px;
+}
+
+.social-icon:hover {
+  color: #d50000;
+}    
+
+.copyright {
+  padding-left: 20px;
+}
